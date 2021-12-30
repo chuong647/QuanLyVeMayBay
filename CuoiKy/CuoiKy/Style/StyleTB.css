@@ -1,0 +1,21 @@
+﻿body {
+}
+
+.label {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+.text {
+    width: 1000px;
+    height: 200px;
+    border: 0.5px solid #a4a5a7;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 10px 10px;
+    outline: none;
+    color: #191919;
+    font-family: 'Quicksand';
+    transition: 0.25s;
+}
