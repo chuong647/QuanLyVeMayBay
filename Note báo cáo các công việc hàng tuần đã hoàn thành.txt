@@ -1,0 +1,18 @@
+Đề tài: Quản lý vé máy bay
+Thành viên: Đặng Thành Chương, 
+	    Đoàn Văn Giàu. 
+
+-Các công việc hoàn thành
+-Database đã xong +Layout dùng chung admin
+-Các chức năng cơ bản của các form đã xong( thêm sửa xóa);
+-Xuất file : chỉ xuất ra file txt.
+-Đã phân trang
+-Đăng nhập (Do có phân quyền nên tạo đăng ký ko hợp lý nhưng vẫn tạo mặc định đây là admin), admin mới được đăng ký cho nhân viên).
+-Phân thành 2 quyền 
+ +Admin: Người có quyền cao nhất có thể làm tất cả. 
+ +Nhân viên: chỉ được xem thông tin của mình, ngoài ra nhâ viên còn được quyền sửa thông tin của mình(chỉ sửa thông tin cá nhân) và được xem các thông tin như Thông báo, thêm xóa sửa thông tin khách hành, tìm kiếm tên khách hàng, in vé, nhân viên còn có thể thêm xóa sửa vé máy bay. 
+ +Layout dùng nhân viên
+-Trang trí trang lại bằng css.
+-Làm trang thông tin, của Admin,nhân viên.
+-Cách công việc chưa hoàn thành cần làm tiếp theo
+-Đăng xuất huỷ session và cooki quay về trang đăng nhập.
