@@ -1,8 +1,8 @@
 Đề tài: Quản lý vé máy bay
 Thành viên: Đặng Thành Chương, 
 	    Đoàn Văn Giàu. 
-
--Các công việc hoàn thành
+các công việc đã hoàn thành
+Tuần 2:
 -Database đã xong +Layout dùng chung admin
 -Các chức năng cơ bản của các form đã xong( thêm sửa xóa);
 -Xuất file : chỉ xuất ra file txt.
@@ -14,5 +14,6 @@ Thành viên: Đặng Thành Chương,
  +Layout dùng nhân viên
 -Trang trí trang lại bằng css.
 -Làm trang thông tin, của Admin,nhân viên.
--Cách công việc chưa hoàn thành cần làm tiếp theo
+
+Tuần 3:
 -Đăng xuất huỷ session và cooki quay về trang đăng nhập.
