@@ -17,3 +17,5 @@ Tuần 2:
 
 Tuần 3:
 -Đăng xuất huỷ session và cooki quay về trang đăng nhập.
+Tuần 4:
+ - Đã hoàn thiện đồ án + báo cáo.
