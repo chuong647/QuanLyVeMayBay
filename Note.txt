@@ -16,6 +16,6 @@ Tuần 2:
 -Làm trang thông tin, của Admin,nhân viên.
 
 Tuần 3:
--Đăng xuất huỷ session và cooki quay về trang đăng nhập.
+-Đăng xuất huỷ session và cookie quay về trang đăng nhập.
 Tuần 4:
  - Đã hoàn thiện đồ án + báo cáo.
