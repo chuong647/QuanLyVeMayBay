@@ -1,8 +1,0 @@
-﻿Mã vé: 1
- Tên máy bay: NNHP05 Airlines
- Họ và tên khách hàng: Nguyễn Ngọc Ngạn
- Loại ghế: Hạng Thương Gia
- Nơi xuất phát: Nha Trang
- Nơi đến: Pleiku
- Ngày đi: 12/24/2021
- Giờ bay: 03:00
