@@ -1,0 +1,112 @@
+﻿body {
+}
+
+.home {
+    width: 100%;
+    box-sizing: inherit;
+}
+
+.home-items {
+    width: 1350px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logosize {
+    height: 100px;
+}
+
+.navigation {
+    /*width: 15%;
+    height: 100%;
+    border-right: 1px solid rgb(140, 140, 140);*/
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    font-size: 18px;
+    font-family: 'Quicksand';
+    border-right: 1px solid rgb(140, 140, 140);
+}
+
+.mainmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+}
+
+    .mainmenu a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        color: #000000;
+    }
+
+        .mainmenu a:hover {
+            background-color: #DFD8DC;
+            border-radius: 8px
+        }
+
+    .mainmenu li:hover .submenu {
+        display: block;
+        max-height: 200px;
+    }
+
+.submenu {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+    border-bottom: 1px solid rgb(140, 140, 140);
+}
+
+    .submenu li {
+        background-color: #f9f9f9;
+    }
+
+        .submenu li:hover {
+            background-color: #DFD8DC;
+            border-radius: 8px
+        }
+
+.container-ad {
+    width: 1100px;
+    padding-left: 250px;
+}
+
+.containner-ad-text {
+    width: 100%;
+    padding-top: 1px;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 120px;
+    vertical-align: middle;
+    font-family: 'Rajdhani';
+    border-bottom: 1px solid rgb(140, 140, 140);
+}
+
+.logo2 {
+    height: 60px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer-img {
+    height: 290px;
+    width: 1177px;
+}

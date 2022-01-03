@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="CuoiKy.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="Style/MasterAD.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="home">
+            <div class="home-items home-ad">
+                <nav class="navigation">
+                    <div class="logo">
+                        <img class="logosize" src="image/logo.png" alt="">
+                    </div>
+                    <ul class="mainmenu">
+                        <li>
+                            <a href="#">
+                                <asp:Label style="width:100%;" ID="lbUser" runat="server"></asp:Label>
+                                <i style="padding-left:10px" class="fas fa-sort-down"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="DoiMatKhau.aspx"><i class="fas fa-key" style="padding-right:10px"></i>Đổi mật khẩu</a></li>
+                                <li style="display:flex;">
+                                    <a>
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <asp:LinkButton ID="btnDangXuat" runat="server" OnClick="btnDangXuat_Click">Đăng xuất</asp:LinkButton>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="ADThongTinNhanVien.aspx"><i class="fas fa-users" style="padding-right:10px"></i>Nhân viên</a></li>
+                        <li><a href="ADMayBay.aspx"><i class="fas fa-plane" style="padding-right:10px"></i>Máy bay</a></li>
+                        <li><a href="ADChuyenBay.aspx"><i class="fas fa-plane-departure" style="padding-right:10px"></i>Chuyến bay</a></li>
+                        <li><a href="ADThongbao.aspx"><i class="fas fa-bell" style="padding-right:10px"></i>Thông báo</a></li>
+                        <li><a href="ADThongKeVe.aspx"><i class="fas fa-newspaper" style="padding-right:10px"></i>Thống kê vé</a></li>
+                        <li><a href="USBanVe.aspx"><i class="fas fa-ticket-alt" style="padding-right:10px"></i>Bán Vé</a></li>
+                    </ul>
+                </nav>
+                <div class="container-ad">
+                    <div class="containner-ad-text">
+                        <img class="logo2" src="image/Logo2.png" alt="">
+                    </div>
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="footer">
+                        <img class="footer-img" src="image/FOODTER.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
