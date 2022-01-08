@@ -1,0 +1,139 @@
+﻿body {
+}
+
+td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+    td b {
+        font-size: 18px;
+        padding-left: 30px;
+        font-family: 'Quicksand';
+    }
+
+.textbox {
+    font-size: 18px;
+    width: 230px;
+    padding: 1px 0px;
+    border: none;
+    border-bottom: solid 1px #6080BF;
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #6080BF 0%);
+    background-position: -230px 0;
+    background-size: 230px 100%;
+    background-repeat: no-repeat;
+    color: #191919;
+    font-family: 'Quicksand';
+}
+
+    .textbox:focus {
+        box-shadow: none;
+        outline: none;
+        background-position: 0 0;
+    }
+
+        .textbox:focus::-webkit-input-placeholder {
+            color: #6080BF;
+            font-size: 10px;
+            transform: translateY(-15px);
+            visibility: visible !important;
+        }
+
+.radio {
+    font-size: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+    .radio.horizontal li {
+        display: inline;
+    }
+
+    .radio label {
+        display: inline;
+    }
+
+.txtTime {
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 0.5px solid #a4a5a7;
+    padding: 1px 1px;
+    width: 220px;
+    outline: none;
+    color: #191919;
+    border-radius: 8px;
+    transition: 0.25s;
+    font-size: 15px;
+    font-family: 'Quicksand';
+}
+
+    .txtTime:focus {
+        border-color: #3300cc;
+        color: #3300cc;
+    }
+
+.upload {
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 0.5px solid #a4a5a7;
+    padding: 10px 10px;
+    width: 300px;
+    outline: none;
+    color: #191919;
+    border-radius: 8px;
+    transition: 0.25s;
+    font-size: 18px;
+    font-family: 'Quicksand';
+}
+
+.button {
+    background: #6080BF;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.25s;
+    font-size: 18px;
+    border: #6080BF;
+    margin-right: 5px;
+    font-family: 'Quicksand';
+}
+
+    .button:hover {
+        background: #000000;
+        border: #000000;
+        color: white;
+    }
+
+.drop {
+    font-size: 20px;
+    width: 260px;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: solid 1px #6080BF;
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #6080BF 0%);
+    background-position: -240px 0;
+    background-size: 240px 100%;
+    background-repeat: no-repeat;
+    color: #191919;
+    font-family: 'Quicksand';
+}
+
+    .drop:focus {
+        box-shadow: none;
+        outline: none;
+        background-position: 0 0;
+    }
+
+.header-text {
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: 'Quicksand';
+}
