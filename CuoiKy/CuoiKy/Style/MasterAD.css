@@ -1,9 +1,11 @@
 ﻿body {
+    
 }
 
 .home {
     width: 100%;
     box-sizing: inherit;
+    background: #99f9b6;
 }
 
 .home-items {

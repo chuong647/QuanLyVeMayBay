@@ -185,7 +185,8 @@ namespace CuoiKy
                     join dau in kn.DIEMDAUs on tim.MaDau equals dau.MaDau
                     join cuoi in kn.DIEMCUOIs on tim.MaCuoi equals cuoi.MaCuoi
                     join ten in kn.MAYBAYs on tim.MaMayBay equals ten.MaMayBay
-                    where dau.TenD.EndsWith(txttim.Text)
+                    where (tim.MaChuyenBay).ToString().EndsWith(txttim.Text)
+                    || dau.TenD.EndsWith(txttim.Text)
                     || cuoi.TenC.EndsWith(txttim.Text)
                     || tim.NgayDi.EndsWith(txttim.Text)
                     || tim.NgayDen.EndsWith(txttim.Text)

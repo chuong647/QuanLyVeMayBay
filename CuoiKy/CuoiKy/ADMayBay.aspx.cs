@@ -101,7 +101,8 @@ namespace CuoiKy
         protected void btntimkiem_Click(object sender, EventArgs e)
         {
             var tk = from timkiem in kn.MAYBAYs
-                     where timkiem.TenMayBay.EndsWith(txttimkiem.Text)
+                     where (timkiem.TenMayBay).EndsWith(txttimkiem.Text)
+                            || timkiem.MaMayBay.ToString().EndsWith(txttimkiem.Text)
                      select timkiem;
             gwMayBay.DataSource = tk;
             gwMayBay.DataBind();

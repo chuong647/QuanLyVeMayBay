@@ -103,8 +103,8 @@ namespace CuoiKy
         protected void btntimkiem_Click(object sender, EventArgs e)
         {
             var tk = from timkiem in kn.THONGBAOs
-                     where timkiem.TieuDe.EndsWith(txttimkiem.Text)
-                     || timkiem.NoiDung.EndsWith(txttimkiem.Text)
+                     where timkiem.MaThongBao.ToString().EndsWith(txttimkiem.Text)
+                     || timkiem.TieuDe.EndsWith(txttimkiem.Text)
                      select timkiem;
             Gridthongbao.DataSource = tk;
             Gridthongbao.DataBind();

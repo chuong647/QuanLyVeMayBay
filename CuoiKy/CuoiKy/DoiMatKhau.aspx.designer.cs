@@ -51,12 +51,12 @@ namespace CuoiKy
         protected global::System.Web.UI.WebControls.TextBox txtRePass;
 
         /// <summary>
-        /// btnDangNhap control.
+        /// btnDoiMK control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDangNhap;
+        protected global::System.Web.UI.WebControls.Button btnDoiMK;
     }
 }

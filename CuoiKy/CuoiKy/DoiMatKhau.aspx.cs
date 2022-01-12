@@ -19,7 +19,7 @@ namespace CuoiKy
         {
             txtTenDN.Text = Session["username"].ToString();
         }
-        protected void btnDangNhap_Click(object sender, EventArgs e)
+        protected void btnDoiMK_Click(object sender, EventArgs e)
         {
             var q = from nv in kn.NHANVIENs
                     where nv.TenDangNhap == Session["username"].ToString()

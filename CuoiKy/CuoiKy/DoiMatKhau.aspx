@@ -16,7 +16,7 @@
                 <asp:TextBox class="text" ID="txtTenDN" placeholder="Tên đăng nhập" runat="server" required=""></asp:TextBox>
              <asp:TextBox class="text" TextMode="Password" placeholder="Mật khẩu mới" ID="txtPassword" runat="server" required=""></asp:TextBox>
              <asp:TextBox class="text" TextMode="Password" placeholder="Nhập lại mật khẩu" ID="txtRePass" runat="server" required=""></asp:TextBox>
-             <asp:Button class="btn" ID="btnDangNhap" runat="server" Text="Đồng ý" OnClick="btnDangNhap_Click" />
+             <asp:Button class="btn" ID="btnDoiMK" runat="server" Text="Đồng ý" OnClick="btnDoiMK_Click" />
             </div>
         </div>
     </form>

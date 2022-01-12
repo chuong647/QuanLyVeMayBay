@@ -93,24 +93,11 @@ namespace CuoiKy
             rdbLoaiVe.ClearSelection();
             lbGia.Text = "0,000";
         }
-        //public bool kiemtra(string mv)
-        //{
-        //    var q = from vb in dc.VEBANs
-        //            where vb.MaVe == mv
-        //            select vb;
-        //    if (q.Any())
-        //    {
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        return false;
-        //    }
-        //}
+   
         public void inve(string mve, string tmb, string lv, string ten, string ndi, string nden, string ngdi, string gbay, string gia)
         {
-            string fileName = "E:\\Mon Hoc\\Cong Nghe NET\\CuoiKy\\CuoiKy\\Ve\\" + mve + ".txt";//đường dẫn file muốn tạo
-            FileStream fs = new FileStream(fileName, FileMode.Create);//tạo file mới với tên file đã khai báo ở trên
+            string fileName = "E:\\Mon Hoc\\Cong Nghe NET\\CuoiKy\\CuoiKy\\Ve\\" + mve + ".txt";
+            FileStream fs = new FileStream(fileName, FileMode.Create);
             StreamWriter swriter = new StreamWriter(fs, Encoding.UTF8);
             swriter.WriteLine("Mã vé: " + mve +
                                 "\r\n Tên máy bay: " + tmb +
@@ -120,7 +107,7 @@ namespace CuoiKy
                                 "\r\n Nơi đến: " + nden +
                                 "\r\n Ngày đi: " + ngdi +
                                 "\r\n Giờ bay: " + gbay);
-            //ghi và đóng file
+           
             swriter.Flush();
             fs.Close();
         }
@@ -368,7 +355,7 @@ namespace CuoiKy
             nden = HttpUtility.HtmlDecode(gwVeBan.SelectedRow.Cells[12].Text).ToString();
             tien = HttpUtility.HtmlDecode(gwVeBan.SelectedRow.Cells[14].Text).ToString();
             inve(mve, tmb, lv, ten, ndi, nden, ngdi, gbay, tien);
-            showMessage("Đã in hóa đơn");
+            showMessage("Đã in vé thành công");
         }
     }
 }

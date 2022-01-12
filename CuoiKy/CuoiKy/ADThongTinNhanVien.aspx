@@ -141,11 +141,11 @@
                             <HeaderStyle Font-Names="quicksand" Font-Size="18px" />
                             <ItemStyle Font-Names="quicksand" Font-Size="18px" />
                         </asp:BoundField>
-                        <asp:BoundField DataField="TenDangNhap" HeaderText="Username" >
+                        <asp:BoundField DataField="TenDangNhap" HeaderText="Tên đăng nhập" >
                             <HeaderStyle Font-Names="quicksand" Font-Size="18px" />
                             <ItemStyle Font-Names="quicksand" Font-Size="18px" />
                         </asp:BoundField>
-                        <asp:BoundField DataField="MatKhau" HeaderText="Password">
+                        <asp:BoundField DataField="MatKhau" HeaderText="Mật khẩu">
                             <HeaderStyle Font-Names="quicksand" Font-Size="18px" />
                             <ItemStyle Font-Names="quicksand" Font-Size="18px" />
                         </asp:BoundField>

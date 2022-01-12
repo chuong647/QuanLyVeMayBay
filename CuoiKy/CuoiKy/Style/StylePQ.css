@@ -27,7 +27,7 @@ body {
 .multi-button {
     display: flex;
     width: 100%;
-    background: #000000;
+    /*background: #3058f5;*/
     box-shadow: var(--shadow) 4px 4px;
 }
 
@@ -43,6 +43,8 @@ body {
         font-family: var(--font-family);
         text-shadow: var(--shadow) 2px 2px;
         transition: flex-grow var(--duration) var(--ease);
+        background: #08f7cb;
+        
     }
 
         .multi-button .button + .button {
